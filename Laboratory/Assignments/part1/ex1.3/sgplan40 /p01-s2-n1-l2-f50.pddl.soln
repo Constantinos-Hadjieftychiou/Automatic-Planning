@@ -1,0 +1,15 @@
+
+; Time 0.00
+; ParsingTime 0.00
+; NrActions 8
+; MakeSpan
+; MetricValue
+
+	 0.010:   (WAIT_CB1)[1.000]
+	 1.020:   (WAIT_CB1-CONDEFF0-YES)[1.000]
+	 2.030:   (WAIT_CB1-ENDOF-CONDEFFS)[1.000]
+	 3.040:   (OPEN-SD1)[1.000]
+	 4.050:   (CLOSE_CB1)[1.000]
+	 5.060:   (WAIT_CB1)[1.000]
+	 6.070:   (WAIT_CB1-CONDEFF0-NO)[1.000]
+	 7.080:   (WAIT_CB1-ENDOF-CONDEFFS)[1.000]

@@ -1,0 +1,7 @@
+(pick-up d1 left b1 depot)
+(pick-up d1 right b2 depot)
+(fly d1 depot loc1)
+(deliver d1 left b1 p1 loc1 food)
+(fly d1 loc1 loc2)
+(deliver d1 right b2 p2 loc2 medicine)
+; cost = 6 (unit cost)

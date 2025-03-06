@@ -1,0 +1,22 @@
+for exercise 1.1
+./FF-v2.3/ff -o domain.pddl -f problem1.pddl                                                                
+problem1:
+./fast-downward.py --alias seq-sat-lama-2011 --plan-file plan.txt \                                                                            
+    ~/Desktop/UCY/6th\ semester\ erasmus/Automatic\ Planning/Laboratory/Assignments/part1/ex1.1/domain.pddl \
+    ~/Desktop/UCY/6th\ semester\ erasmus/Automatic\ Planning/Laboratory/Assignments/part1/ex1.1/problem1.pddl
+problem2:
+./fast-downward.py --alias seq-sat-lama-2011 --plan-file plan.txt \                                                                            
+    ~/Desktop/UCY/6th\ semester\ erasmus/Automatic\ Planning/Laboratory/Assignments/part1/ex1.1/domain.pddl \
+    ~/Desktop/UCY/6th\ semester\ erasmus/Automatic\ Planning/Laboratory/Assignments/part1/ex1.1/problem2.pddl
+or run the main.py
+
+
+for exercise 1.2
+python3 main.py -d 1 -r 0 -l 100 -p 100 -c 100 -g 100  
+./FF-v2.3/ff -o domain.pddl -f drone_problem_d1_r0_l100_p100_c100_g100_ct2.pddl                                                                
+
+
+part2:
+for exercise 2.1: 
+
+your-planner --domain drone-conveyor.pddl --problem problem-conveyor.pddl
