@@ -5,7 +5,7 @@ import os
 
 # List of problem sizes to test.
 # Each problem uses the same value for locations, persons, crates, and goals.
-problem_sizes = [100, 110, 120, 130, 140, 150]
+problem_sizes = [100]
 
 # Define the planners and their command-line options.
 # (Assuming that "./FF-v2.3/ff", "./lpg-td", and "./sgplan40" are executables available in your current directory or PATH.)
